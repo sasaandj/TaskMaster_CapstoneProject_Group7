@@ -2,9 +2,65 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>TaskMaster</title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<title>TASKMASTER</title>
 </head>
 <body>
+
+	<!-- LOGO -->
+	<div style="text-align: left; float: left; margin: 10px;">
+		<img src="images/Logo.PNG" alt="logo" width="200" height="45">
+	</div>
+
+	<!-- LOGIN -->
+	<div style="text-align: right; float: right; margin: 10px;
+		class = "loginbar">
+		<a
+			href="http://localhost:8081/TaskMaster_CapstoneProject_Group7/login.jsp">Login</a>
+		<div class="register">
+			<a
+				href="http://localhost:8081/TaskMaster_CapstoneProject_Group7/register.jsp">Register</a>
+		</div>
+		<div class="forgotPassword">
+		<a 
+			href="resetPassword.jsp">Forgot Password</a>
+		</div>
+	</div>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+	<h1>TaskMaster helps you to stay organized.</h1>
+	<p>Create to-do lists, collaborate, and stay up to date with your
+		daily tasks. Taskmaster is the newest task management tool to help you stay organized.</p>
+
+<br/>
+
+	<div class="form">
+		<form action="register.jsp" method="post">
+			<table>
+				<tr>
+				<td><input type="text" name="email" placeholder="Email"><nobr>
+				<input type="submit" name="login" value="Sign up-it's free!">
+				</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	
+	
+	
+
+<div class="bottom_nav">
+<a href="http://localhost:8081/TaskMaster_CapstoneProject_Group7/">Home</a>
+</div>
 
 </body>
 </html>
